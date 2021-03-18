@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0317BB37-4C00-481C-88B8-CF4F888C5D56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Centaurus.My.MyApplication</StartupObject>
+    <RootNamespace>Centaurus</RootNamespace>
+    <AssemblyName>Centaurus</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Centaurus.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Centaurus.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>235544103CAAB0E4E37C4E32FEFC2D7C030CA2F5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Centaurus_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>
+    </TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\AwardingSystem.vb" />
+    <Compile Include="Code\ChatUpActivity.vb" />
+    <Compile Include="Code\MapServer.vb" />
+    <Compile Include="Code\Miscellaneous.vb" />
+    <Compile Include="FeatureUpdate.Designer.vb">
+      <DependentUpon>FeatureUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Achievements\ResetProgress.Designer.vb">
+      <DependentUpon>ResetProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Achievements\ResetProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CentoKit\ChatUp.Designer.vb">
+      <DependentUpon>ChatUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\ChatUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Community\GamePromo.Designer.vb">
+      <DependentUpon>GamePromo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Community\GamePromo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FirstScreen.Designer.vb">
+      <DependentUpon>FirstScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FirstScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BannedNotice.Designer.vb">
+      <DependentUpon>BannedNotice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BannedNotice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CenAdmino\BanPlayer.Designer.vb">
+      <DependentUpon>BanPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CenAdmino\BanPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CenAdmino\CenAdmino.Designer.vb">
+      <DependentUpon>CenAdmino.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CenAdmino\CenAdmino.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CenAdmino\PendingHelp.Designer.vb">
+      <DependentUpon>PendingHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CenAdmino\PendingHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CentoKit\CentaurusFeatures.Designer.vb">
+      <DependentUpon>CentaurusFeatures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\CentaurusFeatures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\CoreModules.vb" />
+    <Compile Include="Code\Definition.vb" />
+    <Compile Include="Code\FileManager.vb" />
+    <Compile Include="Code\GameJoiner.vb" />
+    <Compile Include="Code\KeyControl.vb" />
+    <Compile Include="UI\CentoKit\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Community\ContactAdmin.Designer.vb">
+      <DependentUpon>ContactAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Community\ContactAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Community\FAQ.Designer.vb">
+      <DependentUpon>FAQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Community\FAQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\JoinWaiter.Designer.vb">
+      <DependentUpon>JoinWaiter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\JoinWaiter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Loader.Designer.vb">
+      <DependentUpon>Loader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Loader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Agreement.Designer.vb">
+      <DependentUpon>Agreement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Agreement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CentoKit\ManualJoiner.Designer.vb">
+      <DependentUpon>ManualJoiner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\ManualJoiner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CentoKit\MapDown.Designer.vb">
+      <DependentUpon>MapDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\MapDown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MetroDialog.Designer.vb">
+      <DependentUpon>MetroDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MetroDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Networking.vb" />
+    <Compile Include="Code\RegistryControl.vb" />
+    <Compile Include="Code\Securify.vb" />
+    <Compile Include="Code\ServerDataFetcher.vb" />
+    <Compile Include="Code\StartupInitiator.vb" />
+    <Compile Include="UI\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\CentoKit\PasswordVerifier.Designer.vb">
+      <DependentUpon>PasswordVerifier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\PasswordVerifier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CentoKit\CentoProtector.Designer.vb">
+      <DependentUpon>CentoProtector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CentoKit\CentoProtector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Achievements\ScoreBank.Designer.vb">
+      <DependentUpon>ScoreBank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Achievements\ScoreBank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ServerDownError.Designer.vb">
+      <DependentUpon>ServerDownError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ServerDownError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PassChanger.Designer.vb">
+      <DependentUpon>PassChanger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PassChanger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SetFeatures.Designer.vb">
+      <DependentUpon>SetFeatures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SetFeatures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Updater.Designer.vb">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Updater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\UpdateService.vb" />
+    <Compile Include="UI\Achievements\MyTrack.Designer.vb">
+      <DependentUpon>MyTrack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Achievements\MyTrack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FeatureUpdate.resx">
+      <DependentUpon>FeatureUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Achievements\ResetProgress.resx">
+      <DependentUpon>ResetProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\ChatUp.resx">
+      <DependentUpon>ChatUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Community\GamePromo.resx">
+      <DependentUpon>GamePromo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FirstScreen.resx">
+      <DependentUpon>FirstScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BannedNotice.resx">
+      <DependentUpon>BannedNotice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CenAdmino\BanPlayer.resx">
+      <DependentUpon>BanPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CenAdmino\CenAdmino.resx">
+      <DependentUpon>CenAdmino.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CenAdmino\PendingHelp.resx">
+      <DependentUpon>PendingHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\CentaurusFeatures.resx">
+      <DependentUpon>CentaurusFeatures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Agreement.resx">
+      <DependentUpon>Agreement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Community\ContactAdmin.resx">
+      <DependentUpon>ContactAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Community\FAQ.resx">
+      <DependentUpon>FAQ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\JoinWaiter.resx">
+      <DependentUpon>JoinWaiter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Loader.resx">
+      <DependentUpon>Loader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\ManualJoiner.resx">
+      <DependentUpon>ManualJoiner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\MapDown.resx">
+      <DependentUpon>MapDown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MetroDialog.resx">
+      <DependentUpon>MetroDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\PasswordVerifier.resx">
+      <DependentUpon>PasswordVerifier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CentoKit\CentoProtector.resx">
+      <DependentUpon>CentoProtector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Achievements\ScoreBank.resx">
+      <DependentUpon>ScoreBank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ServerDownError.resx">
+      <DependentUpon>ServerDownError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PassChanger.resx">
+      <DependentUpon>PassChanger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SetFeatures.resx">
+      <DependentUpon>SetFeatures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Updater.resx">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Achievements\MyTrack.resx">
+      <DependentUpon>MyTrack.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <EmbeddedResource Include="Resources\Fonts\robo-bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\robo-regular.ttf" />
+    <None Include="Resources\Anticheat\Aim map.zip" />
+    <None Include="Resources\Anticheat\chinesetemple.zip" />
+    <None Include="Resources\Anticheat\chintemple2.zip" />
+    <None Include="Resources\Anticheat\DeepInMines.zip" />
+    <None Include="Resources\Anticheat\Dockbeta.zip" />
+    <None Include="Resources\Anticheat\docklands.zip" />
+    <None Include="Resources\Anticheat\dockside.zip" />
+    <None Include="Resources\Anticheat\Factory2.zip" />
+    <None Include="Resources\Anticheat\forestraid.zip" />
+    <None Include="Resources\Anticheat\ghostcity.zip" />
+    <None Include="Resources\Anticheat\Haunted Village.zip" />
+    <None Include="Resources\Anticheat\Homecoming.zip" />
+    <None Include="Resources\Anticheat\JungleX.zip" />
+    <None Include="Resources\Anticheat\Libyan_Rendezvous.zip" />
+    <None Include="Resources\Anticheat\mplocation1.zip" />
+    <None Include="Resources\Anticheat\mplocation2.zip" />
+    <None Include="Resources\Anticheat\mplocation3.zip" />
+    <None Include="Resources\Anticheat\NO_NAME_CITY.zip" />
+    <None Include="Resources\Anticheat\pribois villa_2018.zip" />
+    <None Include="Resources\Anticheat\Pribois_Villa-Night.zip" />
+    <None Include="Resources\Anticheat\Prison Escape.zip" />
+    <None Include="Resources\Anticheat\RainingMen.zip" />
+    <None Include="Resources\Anticheat\redstone.zip" />
+    <None Include="Resources\Anticheat\sandstorm.zip" />
+    <None Include="Resources\Anticheat\Secret Hideout.zip" />
+    <None Include="Resources\Anticheat\THE_AIRFIELD_2019.zip" />
+    <None Include="Resources\Anticheat\timberland.zip" />
+    <None Include="Resources\Anticheat\Ultimate Warfare.zip" />
+    <None Include="Resources\Anticheat\White Wood.zip" />
+    <None Include="Resources\Anticheat\winterland.zip" />
+    <None Include="Resources\hacked_humanplayer.qvm" />
+    <None Include="Resources\hacked_weapon.qvm" />
+    <None Include="Resources\weapon.qvm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app-icon.ico" />
+    <Content Include="Resources\Console.exe" />
+    <None Include="Resources\igi2.exe" />
+    <None Include="Resources\Images\medal2.png" />
+    <None Include="Resources\Images\medal1.png" />
+    <None Include="Resources\Images\medal3.png" />
+    <None Include="Resources\weapons.res" />
+    <None Include="Resources\ammo.qvm" />
+    <None Include="Resources\humanplayer.qvm" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

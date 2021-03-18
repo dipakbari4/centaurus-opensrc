@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievementHelp" xml:space="preserve">
+    <value>Achievements are intented to show off about what players have achieved by using it and playing I.G.I.-2. It helps to grow the reputation among public, and proves how much the player is dedicated &amp; stronger to play.
+
+There are three types of achievements featured in Centaurus, viz. Join Records, ChatUp Records, Login Records.
+
+ • The Join Records achievement is dependent upon how many times you joins the game to play. Once you reach the Bronze badge (3rd from the last legend ones), you may thereafter change your name with no restrictions!
+
+ • The ChatUp Records is achieved when you start chatting in ChatUp of Centaurus.
+
+ • The Login Records is based on how many times you use the CentoProtector (protection service of Centaurus) to sign in.
+
+ • The Game Time Records is a new type of achievement introduced in 3.0. It is dependent upon how much time you have played the game in lifetime.
+
+Bonus Point: You earn +3 bonus point for all achievements when you have unlocked an achievement of any type. It is all about to make I.G.I.-2 great again!</value>
+  </data>
+  <data name="agreement" xml:space="preserve">
+    <value>If you do not agree to any of the terms written underneath, please immediately stop using Centaurus. The author will not take any responsibilities or will not be liable for any damages caused by the system.
+
+I respect the following rules and conditions before starting to use Centaurus:
+
+1. Using any abusive name will not be tolerated.
+2. On the first run, Centaurus collects some necessary performance data, please allow it (notice system data, not personal).
+3. Centaurus must have rights to replace I.G.I.-2 files for anticheat.
+4. I shall be responsible for any kind of file damages by external activities (not from Centaurus).
+5. Trying to mess up the launcher or its associated servers will result a ban.
+6. Play, stay, go fairly.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Aim_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\aim map.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ammo.qvm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chatRules" xml:space="preserve">
+    <value>Before starting and chatting among buddies, you must have some intuition about communicating rules &amp; regulations listed below:
+
+  1. The time is synchronized with GMT+5:30 (Indian Standard Time), so, the time might be different for your country if you belongs to somewhere else.
+
+  2. This is a public chat, so chat smart &amp; do not use any abusive language or any hate speech.
+
+  3. Do not spam in chat to disturb anyone if you have nothing relevant to do with corresponding discussion(s).
+
+  4. You are allowed to send 64 letters every message in order to keep the chatting clean.
+
+  5. Each message must contain at least 3 letters.
+
+  6. Respect everyone and keep the discussions clean.
+
+  7. The privacy is in your hand. Do not share your credentials, sensitive information such as public IP address, etc. ChatUp service shall not be liable for any casualties due to sharing them.</value>
+  </data>
+  <data name="chinesetemple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\chinesetemple.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chintemple2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\chintemple2.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\console.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeepInMines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\deepinmines.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="didYouKnow" xml:space="preserve">
+    <value>Centaurus was born on 26th January 2020
+Clicking on the warmcome header will change it into different color effects
+You can do hangouts with other buddies in ChatUp to call them in game
+You can use Wait for Somebody to Join when nobody's in game
+You can view your achievements &amp; progression in My Track
+You don't need to check for Centaurus updates or any other systematic stuffs because they are completely automated
+You can download your favorable or server required maps from MapDown instantly
+You can boost performance of Centaurus from Edit Features option
+You can manually join any server from Manual Server Joiner
+Now you can control Centaurus appearance on your device startup from Miscellaneous menu
+You should always keep your Centaurus protected with CentoProtector
+You can take backup of your scores before formatting your PC from My Track Progression's settings
+You can restart Centaurus by pressing Ctrl+Shift+Z if you are facing any problem
+If you did already export your Centaurus scores then you can import it back too
+Centaurus begin counting how long have you played whenever you start playing I.G.I.-2
+Community: You can join our Facebook community or visit our website
+Community: You can read our F.A.Q. questions directly in-app
+Community: You can suggest new features and/or report cheaters or violators
+Community: You can contact one of the admins from Contact to Admin system
+A top secret feature for a few chosen players also exists</value>
+  </data>
+  <data name="Dockbeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\dockbeta.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="docklands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\docklands.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dockside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\dockside.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exampleIssue" xml:space="preserve">
+    <value>Hello admin, I'm having several issues on game join.
+
+I get an unknown error while pressing the 'Join Game' button on the main page: "Player setup deployment failed." My network seems to be working fine, it was working fine in previous update, it's possibly an error.
+
+Please guide me how to fix this.
+You can take my email address for further contact: abcd@xyz.com</value>
+  </data>
+  <data name="Factory2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\factory2.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="forestraid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\forestraid.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ghostcity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\ghostcity.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hacked_humanplayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hacked_humanplayer.qvm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hacked_weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hacked_weapon.qvm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Haunted_Village" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\haunted village.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Homecoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\homecoming.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="humanplayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\humanplayer.qvm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="igi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\igi2.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>First of all, thank you for using Centaurus. You are warmly welcome here.
+
+In the first game launch, the Centaurus takes some backup &amp; writes some necessary files for a safe recovery in future, kindly let it proceed. Also, it sends your player information to improve Centaurus for the next update which you have accepted in our Code of Conduct.
+
+If you agree, then continue and you are ready to play.
+
+Let's Make I.G.I.-2 Great Again!</value>
+  </data>
+  <data name="JungleX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\junglex.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Libyan_Rendezvous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\libyan_rendezvous.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>MIT License
+
+Copyright (c) 2020 LinuX Man
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</value>
+  </data>
+  <data name="medal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\medal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\medal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\medal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mplocation1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\mplocation1.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mplocation2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\mplocation2.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mplocation3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\mplocation3.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NO_NAME_CITY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\no_name_city.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pribois_villa_2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\pribois villa_2018.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pribois_Villa_Night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\pribois_villa-night.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Prison_Escape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\prison escape.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RainingMen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\rainingmen.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="redstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\redstone.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="robo_bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fonts\robo-bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="robo_regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fonts\robo-regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sandstorm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\sandstorm.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Secret_Hideout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\secret hideout.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="security" xml:space="preserve">
+    <value>You are optionally but highly recommended to set a password for Centaurus to make it secure from others in your device except those who already knows your set password (if any).
+
+It is because other people in your computer may access it too and play, somehow if they does something bad, only you shall be responsible for any fatality. Therefore you are recommended to protect your launcher.</value>
+  </data>
+  <data name="syncError" xml:space="preserve">
+    <value>We are unable to synchronize your Centaurus to the server.
+YOU CAN CONTINUE USING OTHER FEATURES EXCEPT PLAYING THE MULTIPLAYER AFTER CLOSING THIS PAGE.
+
+The possible cause of this issue is listed along the possibility:
+
+  1. Your internet connectivity may be disturbed. (most possible)
+  2. Your IP range is yet blocked. (more possible)
+  3. The server is really down. (less possible)
+  4. Your Centaurus is not given access to the internet from the firewall. (least possible)
+
+Note: If you are getting this problem again and again and not finding it solved from 'Click to know what can you do...' suggestions, then you may need to fill up a complain form which could be found by clicking the button placed below.</value>
+  </data>
+  <data name="syncSolution" xml:space="preserve">
+    <value>Here is what could you do before applying a complaint form:
+
+  &gt; Try restarting your network connection by switching it off and on.
+  &gt; Check if your network is correctly connected to a network.
+  &gt; Go to RUN (Win+R), type 'cleanmgr' and clean up the junk files.
+  &gt; The final solution: Change the I.G.I.-2 folder 'pc' into 'pc1' or something else and allow the Centaurus from your firewall.
+
+Fill up the form and submit if none of the above did work successfully. You can contact an active admin for help and receive replies from them.</value>
+  </data>
+  <data name="THE_AIRFIELD_2019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\the_airfield_2019.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="timberland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\timberland.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ultimate_Warfare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\ultimate warfare.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="waitRecommendation" xml:space="preserve">
+    <value>Are you sure you want to turn on Waiting Mode? It is because probably somebody else might have already turned on waiting mode for another player to join. It is highly recommended to join and wait for at least 10 minutes before using this feature.
+
+Click 'Yes' to ignore and start waiting, 'No' to join game and see if somebody comes (recommended primarily), 'Cancel' to do nothing &amp; quit from this box.</value>
+  </data>
+  <data name="weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weapon.qvm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weapons.res;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="White_Wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\white wood.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="winterland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anticheat\winterland.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
