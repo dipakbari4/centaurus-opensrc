@@ -51,9 +51,6 @@ when compared to its proportion of file size and the number of features.
 - The CenAdmino to control players and manage the system for moderators.
 
 
----
-
-
 ## Statements from the author
 
   1. This software is completely genuine and virus-free.
